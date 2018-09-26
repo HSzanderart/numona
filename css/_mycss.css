@@ -1,0 +1,14 @@
+body {
+  height: 100%;
+}
+@font-face {
+    font-family: supermarket;
+    src: url('font/supermarket.ttf');
+}
+body {
+  background-color: #FEF5E7;
+  font-family: supermarket;
+}
+.home-bg{
+  background-color: #fff;
+}
