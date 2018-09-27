@@ -13,7 +13,6 @@ require('connect/timeout.php');
 setSessionTime(1800,"index.php",null,@$_SESSION['MM_Username'],true); 
 mysqli_select_db($Acon,$database_Acon);
 
-
 $query_get = mysqli_query($Acon,"SELECT * FROM user WHERE user_id='".@$_GET['pro_ct']."'") or die (mysqli_error());
 $row_ad = mysqli_fetch_assoc($query_get);
 
@@ -57,10 +56,10 @@ $row_ad = mysqli_fetch_assoc($query_get);
                  ?>  <?php echo $result["user_last"]; ?>
               </button>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">ข้อมูลส่วนตัว</a>
+                <a class="dropdown-item" href="info.php">ข้อมูลส่วนตัว</a>
                 <a class="dropdown-item" href="#">เปลี่ยนรหัสผ่าน</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="index.php">ออกจากระบบ</a>
+                <a class="dropdown-item" href="connect/timeout.php?doLogout">ออกจากระบบ</a>
               </div>
             </div>
 
