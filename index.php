@@ -36,7 +36,7 @@ if(isset($_POST['login'])=="loginset"){
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>Signin Template for Bootstrap</title>
+    <title>NUMONA</title>
 
     <!-- Bootstrap core CSS -->
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
@@ -48,7 +48,6 @@ if(isset($_POST['login'])=="loginset"){
   <body class="text-center">
     <form class="form-signin" action="<?php echo htmlentities($loginFormAction);?>" method="post" >
       <img class="mb-4" src="images/logo.png" alt="" width="250" height="250">
-      <h1 class="h3 mb-3 font-weight-normal">กรุณาเข้าสู่ระบบ</h1>
       <label for="inputusername" class="sr-only">Username</label>
       <input type="username" name="f_user"  class="form-control" placeholder="Username"  autofocus="">
       <label for="inputPassword" class="sr-only">Password</label>
@@ -60,9 +59,11 @@ if(isset($_POST['login'])=="loginset"){
       </div>
 
       <input type="hidden" name="login" value="loginset">
-      <button class="btn btn-lg btn-orange btn-block" type="submit">Sign in</button>
+      <button class="btn btn-lg btn-orange btn-block" type="submit">เข้าสู่ระบบ</button>
+
+      <a href="register.php" role="button" class="btn btn-lg btn-block btn-outline-warning">สมัครสมาชิก</a>
       
-      <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+      <p class="mt-5 mb-3 text-muted">@NUMONA</p>
     </form>
   
     <!-- Optional JavaScript -->

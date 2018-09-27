@@ -60,7 +60,7 @@ $row_ad = mysqli_fetch_assoc($query_get);
                 <a class="dropdown-item" href="#">ข้อมูลส่วนตัว</a>
                 <a class="dropdown-item" href="#">เปลี่ยนรหัสผ่าน</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">ออกจากระบบ</a>
+                <a class="dropdown-item" href="index.php">ออกจากระบบ</a>
               </div>
             </div>
 

@@ -12,3 +12,8 @@ body {
 .home-bg{
   background-color: #fff;
 }
+.btn-orange {
+  color: #fff;
+  background-color: #FF5733;
+  border-color: #FF2D00;
+}
