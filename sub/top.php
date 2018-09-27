@@ -46,7 +46,7 @@ $row_ad = mysqli_fetch_assoc($query_get);
             ">
           </div>
           <div class="col-6 d-flex justify-content-end align-items-center">
-            <div class="btn-group">
+            <div class="btn-group btn-group-lg">
               <button type="button" class="btn btn-warning dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 <?php 
                 $sqlcode = "SELECT * FROM user WHERE user_id = '".$_SESSION['MM_Username']."' ";
