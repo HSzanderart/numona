@@ -33,7 +33,7 @@
 	  <dd class="col-sm-9"><?php echo $result["user_add"];?></dd>
 	</dl>
 
-	<button type="button" class="btn btn-warning btn-lg btn-block">แก้ไขข้อมูล</button>
+	<a href="info_edit.php" type="button" class="btn btn-warning btn-lg btn-block">แก้ไขข้อมูล</a>
 	<hr>
 	
 	<h1>รายละเอียดการสั่งตัดเสื้อผ้า</h1>

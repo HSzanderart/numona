@@ -37,10 +37,9 @@
         <div class="form-group">
           <label for="exampleFormControlSelect1">ข้อมูลส่วนตัว</label>
           <select class="form-control" name="user_title">
-            <option>เลือกคำนำหน้าชื่อ</option>
-            <option>นาย</option>
             <option>นางสาว</option>
             <option>นาง</option>
+            <option>นาย</option>
           </select>
         </div>
        <div class="form-group">
@@ -52,9 +51,8 @@
         </div>
         <div class="form-group">
             <select class="form-control" name="user_sex" >
-            <option>เลือกเพศ</option>
-            <option value="ชาย">ชาย</option>
             <option value="หญิง">หญิง</option>
+            <option value="ชาย">ชาย</option>
             </select>
         </div>
         <div class="form-group">
@@ -66,7 +64,7 @@
         </div>
         
         <div class="form-group">
-          <textarea class="form-control" name="user_add" rows="3"placeholder="ที่อยู่"></textarea>
+          <textarea class="form-control" name="user_add" rows="3" placeholder="ที่อยู่"></textarea>
         </div>
         <hr>
         <center>
