@@ -63,11 +63,14 @@ if($_GET['cmd']=="edit")
        $cmd .= "?" . htmlentities($_SERVER['QUERY_STRING']);
       }
 
-      if($user_pass != $user_passconfirm){
+      $sqlcode = "SELECT * FROM user WHERE user_ID = '".$_SESSION['MM_Username']."'";
+      $query = mysqli_query($Acon,$sqlcode);
+      $result = mysqli_fetch_array($query,MYSQLI_ASSOC);
+      if($user_pass != $resule["user_pass"]){
         echo "
         <script>
         alert('Password ไม่ตรงกัน');
-        window.location = 'register.php';
+        window.location = 'info_edit.php';
         </script>";
         exit;
        }else{ 

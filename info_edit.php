@@ -60,6 +60,13 @@
 				<textarea class="form-control" name="user_add" rows="3"><?php echo $result["user_add"];?></textarea>
 			</div>
 		</div>
+		<hr>
+		<div class="form-group row">
+			<label class="col-sm-3 col-form-label"><strong>กรุณายืนยันรหัสผ่าน</strong></label>
+			<div class="col-sm-9">
+				<input type="password" class="form-control" name="user_pass">
+			</div>
+		</div>
 		<div class="form-group row">
 		<div class="col-sm-3"></div>
 		<div class="col-sm-9 text-center">
