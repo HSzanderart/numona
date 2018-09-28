@@ -1,5 +1,5 @@
 <!-- Footer -->
-<footer class="page-footer font-small mdb-color lighten-3 pt-4">
+<footer class="page-footer font-small mdb-color lighten-3 pt-4 bg-dark text-light">
 
     <!-- Footer Links -->
     <div class="container text-center text-md-left">
@@ -29,26 +29,26 @@
 
           <!-- Links -->
           <h5 class="font-weight-bold text-uppercase mb-4">About</h5>
-
+          
           <ul class="list-unstyled">
             <li>
               <p>
-                <a href="#!">PROJECTS</a>
+                <a class="btn btn-block btn-outline-light" href="#!">PROJECTS</a>
               </p>
             </li>
             <li>
               <p>
-                <a href="#!">ABOUT US</a>
+                <a class="btn btn-block btn-outline-light" href="#!">ABOUT US</a>
               </p>
             </li>
             <li>
               <p>
-                <a href="#!">BLOG</a>
+                <a class="btn btn-block btn-outline-light" href="#!">BLOG</a>
               </p>
             </li>
             <li>
               <p>
-                <a href="#!">AWARDS</a>
+                <a class="btn btn-block btn-outline-light" href="#!">AWARDS</a>
               </p>
             </li>
           </ul>
@@ -95,11 +95,11 @@
           <h5 class="font-weight-bold text-uppercase mb-4">Follow Us</h5>
 
           <!-- Facebook -->
-          <h3><a href="https://www.facebook.com/numonashop/" class="fa fa-facebook btn btn-outline-Dark">
+          <h3><a href="https://www.facebook.com/numonashop/" class="fa fa-facebook btn btn-outline-light">
           </a></h3>
             <br>
           <!-- Facebook -->
-          <h3><a href="#" class="fa fa-instagram btn btn-outline-Dark">
+          <h3><a href="#" class="fa fa-instagram btn btn-outline-light">
           </a></h3>
           
 
