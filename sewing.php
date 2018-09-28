@@ -6,7 +6,8 @@
     <?php require('sub/nav.php');?>
     <!-- ................................................. -->
     
-     <h1>0000000000000000</h1>
+     <h1>กรุณากรอกรายละเอียด</h1>
+     <hr>
      <form>
 	  <div class="form-group h5">
 	  	<blockquote class="blockquote">
@@ -42,6 +43,10 @@
 	    <label for="exampleFormControlTextarea1">Example textarea</label>
 	    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 	  </div>
+	  <div class="form-group">
+    	<label for="exampleFormControlFile1">กรุณาส่งแบบชุด</label>
+    	<input type="file" class="form-control-file" id="exampleFormControlFile1">
+ 	  </div>
 	</form>
 
      <br> 

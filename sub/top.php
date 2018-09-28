@@ -57,7 +57,7 @@ $row_ad = mysqli_fetch_assoc($query_get);
               </button>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="info.php">ข้อมูลส่วนตัว</a>
-                <a class="dropdown-item" href="#">เปลี่ยนรหัสผ่าน</a>
+                <a class="dropdown-item" href="change_pass.php">เปลี่ยนรหัสผ่าน</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="connect/timeout.php?doLogout">ออกจากระบบ</a>
               </div>

@@ -46,8 +46,7 @@
           <input class="form-control"  placeholder="ชื่อ" name="user_name">
         </div>
         <div class="form-group">
-          <input  class="form-control" id="exampleFormControlInput1" placeholder="นามสกุล"
-          name="user_last">
+          <input  class="form-control"  placeholder="นามสกุล" name="user_last">
         </div>
         <div class="form-group">
             <select class="form-control" name="user_sex" >

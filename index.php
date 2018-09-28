@@ -1,4 +1,4 @@
-<?php 
+<?php
 ob_start();
 if (!isset($_SESSION)) {
   session_start();
@@ -14,7 +14,7 @@ if(isset($_POST['login'])=="loginset"){
   $row_login = mysqli_fetch_array($querylogin);
 
   if(!$row_login)
-    { 
+    {
       echo "<script>alert('Username or password Incorrect')</script>";
       echo "<script>window.location=' index.php';</script>";
     }else{
@@ -62,7 +62,6 @@ if(isset($_POST['login'])=="loginset"){
       <button class="btn btn-lg btn-orange btn-block" type="submit">เข้าสู่ระบบ</button>
 
       <a href="register.php" role="button" class="btn btn-lg btn-block btn-outline-warning">สมัครสมาชิก</a>
-      
       <p class="mt-5 mb-3 text-muted">@NUMONA</p>
     </form>
   
