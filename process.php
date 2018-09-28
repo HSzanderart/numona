@@ -83,13 +83,19 @@ if($_GET['cmd']=="edit")
       $sqlcode = "SELECT * FROM user WHERE user_ID = '".$_SESSION['MM_Username']."'";
       $query = mysqli_query($Acon,$sqlcode);
       $result = mysqli_fetch_array($query,MYSQLI_ASSOC);
-      if($user_pass != $resule["user_pass"]){
+      if($user_pass != '$resule["user_pass"]'){
         //echo $_SESSION['MM_Username'].'<br>'; 
         //echo $user_pass;
-        $insertSQL = "INSERT INTO user (user_name,user_last,user_sex,user_mail,user_tel,user_add)VALUES
-        ('$user_name','$user_last','$user_sex','$user_mail','$user_tel','$user_add')";
+        $editSQL = "UPDATE user SET 
+        user_name = '$user_name',
+        user_last = '$user_last',
+        user_sex= '$user_sex',
+        user_mail = '$user_mail',
+        user_tel = '$user_tel',
+        user_add = '$user_add'
+        WHERE user_ID = '$user_ID'";
 
-        $Result1 = mysqli_query($Acon, $insertSQL) or die(mysqli_error()."error");
+        $Result1 = mysqli_query($Acon, $editSQL) or die(mysqli_error()."error");
 
         //$logoutAction;
         $goto="info.php";
